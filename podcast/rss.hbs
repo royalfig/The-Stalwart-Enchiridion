@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+xmlns:dc="https://purl.org/dc/elements/1.1/"
+xmlns:atom="https://www.w3.org/2005/Atom"
+xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="https://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="https://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="https://www.google.com/schemas/play-podcasts/1.0">
+	<channel>
+		<title>The Lost Files</title>
+		<link>https://www.enchiridion.io/</link>
+		<description>
+		Enchiridion's The Lost Tapes are abridged actual play recordings from our gaming group; with professional gear, post-production, and editing. Our improv roleplaying style has jived well together for decades, and we continue to meet weekly. Unofficially, I dubbed us the Stalwart Companions, but the Razorbeaks became a more fitting title; listen in and find out why.
+		</description>
+		<language>en-us</language>
+		<copyright>ENCHIRIDION.IO Copyright 2023</copyright>
+		<atom:link href="https://www.enchiridion.io/podcast/rss/" rel="self" type="application/rss+xml" />
+		<lastBuildDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</lastBuildDate>
+		<itunes:author>Colin Conn</itunes:author>
+		<itunes:summary>
+		The tabletop RPG design blog of Colin Conn and home of The Lost Tapes, an abridged actual play podcast.
+		</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Colin Conn</itunes:name>
+			<itunes:email>colin@enchiridion.io</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:image href="https://www.enchiridion.io/content/images/2023/05/EYE-1.png"/>
+		<itunes:category text="Games"></itunes:category>
+
+		{{#get "posts" filter="tag:podcast" include="tags,authors" as |episode|}}
+			{{#foreach episode}}
+			<item>
+				<title>{{title}}</title>
+				<link>{{url absolute="true"}}</link>
+				<pubDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</pubDate>
+				<guid isPermaLink="false">{{id}}</guid>
+				<category><![CDATA[ {{primary_tag.name}} ]]></category>
+				<description>{{custom_excerpt}}</description>
+				<content:encoded><![CDATA[ {{content}} ]]></content:encoded>
+				<enclosure url="{{og_description}}" length="104857600" type="audio/mpeg"/>
+				<itunes:subtitle>{{custom_excerpt}}</itunes:subtitle>
+				<itunes:summary><![CDATA[ {{content}} ]]></itunes:summary>
+			</item>
+			{{/foreach}}
+		{{/get}}
+	</channel>
+</rss>
