@@ -104,7 +104,7 @@
                     "Modern sans-serif",
                     "Elegant serif"
                 ],
-                "default": "Modern sans-serif"
+                "default": "Elegant serif"
             },
             "body_font": {
                 "type": "select",
@@ -126,7 +126,7 @@
                     "Left aligned",
                     "Hidden"
                 ],
-                "default": "Center aligned",
+                "default": "Left aligned",
                 "group": "homepage"
             },
             "feed_layout": {
@@ -146,7 +146,7 @@
                     "Dark",
                     "Auto"
                 ],
-                "default": "Light"
+                "default": "Auto"
             },
             "post_image_style": {
                 "type": "select",
@@ -156,7 +156,7 @@
                     "Small",
                     "Hidden"
                 ],
-                "default": "Wide",
+                "default": "Small",
                 "group": "post"
             },
             "email_signup_text": {
