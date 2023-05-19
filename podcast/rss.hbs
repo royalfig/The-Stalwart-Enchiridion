@@ -9,7 +9,7 @@ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
     <channel>
-        <title>{{@site.title}}</title>
+        <title>The Lost Files</title>
         <link>{{@site.url}}</link>
         <description>{{@site.description}}</description>
         <language>{{@site.locale}}</language>
@@ -19,12 +19,12 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         <itunes:author>{{@site.title}}</itunes:author>
         <itunes:summary>{{@site.description}}</itunes:summary>
         <itunes:owner>
-            <itunes:name>Your Name</itunes:name>
-            <itunes:email>youremail@example.com</itunes:email>
+            <itunes:name>Colin Conn</itunes:name>
+            <itunes:email>colin@enchiridion.io</itunes:email>
         </itunes:owner>
         <itunes:explicit>clean</itunes:explicit>
         <itunes:image href="{{img_url @site.icon absolute="true"}}"/>
-        <itunes:category text="Technology"></itunes:category>
+        <itunes:category text="Games"></itunes:category>
 
         {{#get "posts" filter="tag:podcast" include="tags,authors" as |episode|}}
             {{#foreach episode}}
