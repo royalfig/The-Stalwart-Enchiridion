@@ -24,30 +24,23 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
         </itunes:owner>
         <itunes:explicit>clean</itunes:explicit>
         <itunes:image href="{{img_url @site.icon absolute="true"}}"/>
-        <itunes:category text="Games"></itunes:category>
+        <itunes:category text="Leasure"></itunes:category> <itunes:category text="Games"></itunes:category>
+
+        {{#get "posts" filter="tag:podcast" include="tags,authors" as |episode|}}
+            {{#foreach episode}}
             <item>
-                <title>Summer Break and Killer Birds - Part 2</title>
-                <link>https://www.enchiridion.io/podcast/summer-break-and-killer-bird-part-2/</link>
+                <title>{{title}}</title>
+                <link>{{url absolute="true"}}</link>
                 <pubDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</pubDate>
-                <guid isPermaLink="false"></guid>
-                <category>???</category>
-                <description>???</description>
-                <content:encoded>???</content:encoded>
-                <enclosure url="https://www.enchiridion.io/content/media/2023/05/Summer-Break-and-Killer-Birds-Part-2.mp3" length="82,844,928" type="audio/mpeg"/>
-                <itunes:subtitle>{{custom_excerpt}}</itunes:subtitle>
-                <itunes:summary><![CDATA[ {{content}} ]]></itunes:summary>
-            </item>
-            <item>
-                <title>Summer Break and Killer Birds - Part 1</title>
-                <link>https://www.enchiridion.io/podcast/summer-break-and-killer-bird-part-2/</link>
-                <pubDate>{{date format="ddd, DD MMM YYYY HH:mm:ss ZZ"}}</pubDate>
-                <guid isPermaLink="false"></guid>
+                <guid isPermaLink="false">{{id}}</guid>
                 <category><![CDATA[ {{primary_tag.name}} ]]></category>
                 <description>{{custom_excerpt}}</description>
                 <content:encoded><![CDATA[ {{content}} ]]></content:encoded>
-                <enclosure url="https://www.enchiridion.io/content/media/2023/05/Summer-Break-and-Killer-Birds-Part-1.mp3" length="82,844,928" type="audio/mpeg"/>
+                <enclosure url="{{og_description}}" length="0" type="audio/mpeg"/>
                 <itunes:subtitle>{{custom_excerpt}}</itunes:subtitle>
                 <itunes:summary><![CDATA[ {{content}} ]]></itunes:summary>
             </item>
+            {{/foreach}}
+        {{/get}}
     </channel>
 </rss>
