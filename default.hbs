@@ -11,7 +11,12 @@
 
     {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
     this will take care of caching and cache-busting automatically --}}
-    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+   <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+ 
+    {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
+    it should always be the last tag before the closing head tag --}}
+    {{ghost_head}}
+
     <link href="{{fonts "Logical-Black.woff2.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{fonts "Logical-BlackItalic.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{fonts "Logical-Bold.woff2.woff2"}}" rel="stylesheet" type="text/css">
@@ -29,9 +34,6 @@
     <link href="{{fonts "Logical-Thin.woff2.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{fonts "Logical-ThinItalic.woff2"}}" rel="stylesheet" type="text/css">
 
-    {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
-    it should always be the last tag before the closing head tag --}}
-    {{ghost_head}}
 
 </head>
 <body class="{{body_class}} is-head-{{#match @custom.navigation_layout "Logo on cover"}}left-logo{{else match @custom.navigation_layout "Logo in the middle"}}middle-logo{{else}}stacked{{/match}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}{{#if @custom.show_publication_cover}} has-cover{{/if}}">
