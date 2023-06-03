@@ -52,7 +52,7 @@ production stylesheet in assets/built/screen.css
      */
 
     /* Fonts */
-    --font-sans: "Courier Prime", sans-serif;
+    --font-sans: Courier Prime, sans-serif;
     --font-serif: Courier Prime, serif;
     --font-mono: Menlo, monospace;
 }
