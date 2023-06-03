@@ -2,21 +2,6 @@
 <html lang="{{@site.locale}}"{{#match @custom.color_scheme "Dark"}} class="dark-mode"{{else match @custom.color_scheme "Auto"}} class="auto-color"{{/match}}>
 <head>
 
-    {{!-- Basic meta - advanced meta is output with {ghost_head} below --}}
-    <title>{{meta_title}}</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
-    this will take care of caching and cache-busting automatically --}}
-   <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
- 
-    {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
-    it should always be the last tag before the closing head tag --}}
-    {{ghost_head}}
-
     <link href="{{assets "fonts/Logical-BlackItalic.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{assets "fonts/Logical-Bold.woff2.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{assets "fonts/Logical-BoldItalic.woff2"}}" rel="stylesheet" type="text/css">
@@ -34,6 +19,20 @@
     <link href="{{assets "fonts/Logical-ThinItalic.woff2"}}" rel="stylesheet" type="text/css">
     <link href="{{assets "fonts/Logical-Black.woff2.woff2"}}" rel="stylesheet" type="text/css">
 
+    {{!-- Basic meta - advanced meta is output with {ghost_head} below --}}
+    <title>{{meta_title}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
+    this will take care of caching and cache-busting automatically --}}
+   <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+ 
+    {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
+    it should always be the last tag before the closing head tag --}}
+    {{ghost_head}}
 
 </head>
 <body class="{{body_class}} is-head-{{#match @custom.navigation_layout "Logo on cover"}}left-logo{{else match @custom.navigation_layout "Logo in the middle"}}middle-logo{{else}}stacked{{/match}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}{{#if @custom.show_publication_cover}} has-cover{{/if}}">
