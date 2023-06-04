@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Logical';
+	src: url('fonts/Logical-Book.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Logical';
+	src: url('fonts/Logical-BookItalic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Logical';
+	src: url('fonts/Logical-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Logical';
+	src: url('fonts/Logical-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
