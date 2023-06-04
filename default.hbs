@@ -2,23 +2,6 @@
 <html lang="{{@site.locale}}"{{#match @custom.color_scheme "Dark"}} class="dark-mode"{{else match @custom.color_scheme "Auto"}} class="auto-color"{{/match}}>
 <head>
 
-    <link href="{{assets "fonts/Logical-BlackItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Bold.woff2.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-BoldItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Book.woff2.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-BookItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Heavy.woff2.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-HeavyItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Italic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Light.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-LightItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Medium.woff2.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-MediumItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Regular.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Thin.woff2.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-ThinItalic.woff2"}}" rel="stylesheet" type="text/css">
-    <link href="{{assets "fonts/Logical-Black.woff2.woff2"}}" rel="stylesheet" type="text/css">
-
     {{!-- Basic meta - advanced meta is output with {ghost_head} below --}}
     <title>{{meta_title}}</title>
     <meta charset="utf-8" />
@@ -35,6 +18,26 @@
     {{ghost_head}}
 
 </head>
+
+<head>
+ <link href="{{assets "fonts/Logical-BlackItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Bold.woff2.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-BoldItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Book.woff2.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-BookItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Heavy.woff2.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-HeavyItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Italic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Light.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-LightItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Medium.woff2.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-MediumItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Regular.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Thin.woff2.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-ThinItalic.woff2"}}" rel="stylesheet" type="text/css">
+ <link href="{{assets "fonts/Logical-Black.woff2.woff2"}}" rel="stylesheet" type="text/css">
+</head>
+
 <body class="{{body_class}} is-head-{{#match @custom.navigation_layout "Logo on cover"}}left-logo{{else match @custom.navigation_layout "Logo in the middle"}}middle-logo{{else}}stacked{{/match}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}{{#if @custom.show_publication_cover}} has-cover{{/if}}">
 <div class="viewport">
 
