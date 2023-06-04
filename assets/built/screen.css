@@ -24,7 +24,6 @@
 
 :root {
 
-    /* Colours */
     --color-green: #a4d037;
     --color-yellow: #fecd35;
     --color-red: #f05230;
@@ -35,23 +34,13 @@
     --color-border: #e1e1e1;
     --color-wash: #e5eff5;
     --color-darkmode: #282a36;
-
-    /*
-    An accent color is also set by Ghost itself in
-    Ghost Admin > Settings > Brand
-
-    --ghost-accent-color: {value};
-
-    You can use this variable throughout your styles
-     */
-
-    /* Fonts */
-    --font-sans: Logical, sans-serif;
-    --font-serif: Logical, serif;
+    /* --ghost-accent-color: {value}; */
+    --font-sans: Geologica, sans-serif;
+    --font-serif: Geologica, serif;
     --font-mono: Courier, monospace;
+
 }
 
-  
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
 
