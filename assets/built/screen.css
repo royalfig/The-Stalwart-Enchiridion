@@ -23,7 +23,6 @@
 @import "global.css";
 
 :root {
-
     --color-green: #50fa7b;
     --color-yellow: #f1fa8c;
     --color-red: #ff5555;
@@ -34,11 +33,11 @@
     --color-border: #f8f8f2;
     --color-wash: #f8f8f2;
     --color-darkmode: #282a36;
-    /* --ghost-accent-color: {value}; */
+    --ghost-accent-color: #8be9fd;
+    
     --font-sans: Logical, sans-serif;
     --font-serif: Logical, serif;
     --font-mono: Courier, monospace;
-
 }
 
 /* 2. Layout - Page building blocks
