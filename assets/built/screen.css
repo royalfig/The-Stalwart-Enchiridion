@@ -35,8 +35,8 @@
     --color-darkmode: #282a36;
     --ghost-accent-color: #6272a4;
     
-    --font-sans: Logical, sans-serif;
-    --font-serif: Logical, serif;
+    --font-sans: logical, sans-serif;
+    --font-serif: logical, serif;
     --font-mono: Courier, monospace;
 }
 
