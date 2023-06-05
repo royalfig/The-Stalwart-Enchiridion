@@ -1,41 +1,41 @@
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/built/LogicalTEST-Book.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/built/logicaltest-book.otf') format('opentype');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/LogicalTEST-BookItalic.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/logicaltest-bookitalic.otf') format('opentype');
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/LogicalTEST-Bold.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/logicaltest-bold.otf') format('opentype');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/LogicalTEST-Bold.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/logicaltest-bold.otf') format('opentype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/LogicalTEST-Black.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/logicaltest-black.otf') format('opentype');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Logical';
-	src: url('https://www.enchiridion.io/assets/built/LogicalTEST-Black.otf') format('opentype');
+	font-family: 'logical';
+	src: url('https://www.enchiridion.io/assets/built/logicaltest-black.otf') format('opentype');
 	font-weight: 800;
 	font-style: normal;
 }
