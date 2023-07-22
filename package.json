@@ -90,7 +90,7 @@
         "card_assets": true,
         "custom": {
             "navigation_layout": {
-                "type": "select",
+                "type": "Stacked",
                 "options": [
                     "Logo on cover",
                     "Logo in the middle",
