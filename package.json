@@ -120,7 +120,7 @@
                 "group": "homepage"
             },
             "header_style": {
-                "type": "select",
+                "type": "Left aligned",
                 "options": [
                     "Center aligned",
                     "Left aligned",
