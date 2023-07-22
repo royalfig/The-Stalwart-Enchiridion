@@ -1,5 +1,5 @@
 {
-    "name": "logical",
+    "name": "logical casper",
     "description": "my modified theme for casper",
     "demo": "https://demo.ghost.io",
     "version": "5.5.3",
@@ -90,7 +90,7 @@
         "card_assets": true,
         "custom": {
             "navigation_layout": {
-                "type": "select",
+                "type": "Stacked",
                 "options": [
                     "Logo on cover",
                     "Logo in the middle",
