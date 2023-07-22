@@ -1,6 +1,6 @@
 {
     "name": "logical",
-    "description": "my modified theme for casper",
+    "description": "Modified Casper Theme with the Logical Font",
     "demo": "https://demo.ghost.io",
     "version": "5.5.3",
     "engines": {
@@ -90,7 +90,7 @@
         "card_assets": true,
         "custom": {
             "navigation_layout": {
-                "type": "Stacked",
+                "type": "select",
                 "options": [
                     "Logo on cover",
                     "Logo in the middle",
@@ -120,7 +120,7 @@
                 "group": "homepage"
             },
             "header_style": {
-                "type": "Left aligned",
+                "type": "select",
                 "options": [
                     "Center aligned",
                     "Left aligned",
@@ -140,7 +140,7 @@
                 "group": "homepage"
             },
             "color_scheme": {
-                "type": "Dark",
+                "type": "select",
                 "options": [
                     "Light",
                     "Dark",
@@ -149,7 +149,7 @@
                 "default": "Light"
             },
             "post_image_style": {
-                "type": "Small",
+                "type": "select",
                 "options": [
                     "Wide",
                     "Full",
