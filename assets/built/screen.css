@@ -2234,7 +2234,7 @@ html.dark-mode .gh-content strong {
 }
 
 html.dark-mode .gh-content em {
-    color: #fff;
+    color: #FFFFFF; /* Italics Color */
 }
 
 html.dark-mode .gh-content code {
