@@ -947,6 +947,7 @@ production stylesheet in assets/built/screen.css
 .post-card-tags {
     display: flex;
     align-items: center;
+    L:
     gap: 12px;
     margin: 0 0 10px;
     color: var(--color-secondary-text);
