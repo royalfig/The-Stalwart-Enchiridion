@@ -2181,6 +2181,7 @@ html.dark-mode .author-profile-social-link:hover {
 
 html.dark-mode .article-title {
     color: #fff;
+    font-variant-numeric: lining-nums;
 }
 
 html.dark-mode .article-excerpt {
