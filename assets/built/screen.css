@@ -2226,7 +2226,7 @@ html.dark-mode .gh-content :not(pre) > code {
 }
 
 :where(html.dark-mode) .gh-content a {
-    color: #fff;
+    color: #8be9fd;
 }
 
 html.dark-mode .gh-content strong {
