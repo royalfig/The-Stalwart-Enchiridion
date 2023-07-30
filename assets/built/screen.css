@@ -454,7 +454,6 @@ production stylesheet in assets/built/screen.css
     display: inline-block;
     line-height: 1.7;
     color: inherit;
-    font-weight: 100;
 }
 
 .gh-head-menu .nav a:hover {
