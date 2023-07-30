@@ -2230,6 +2230,7 @@ html.dark-mode .gh-content :not(pre) > code {
 
 :where(html.dark-mode) .gh-content a {
     color: #8be9fd;
+    font-feature-settings: "ss20";
 }
 
 html.dark-mode .gh-content strong {

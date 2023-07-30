@@ -84,7 +84,6 @@ video {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    font-variant-numeric: lining-nums;
 }
 body {
     line-height: 1;
