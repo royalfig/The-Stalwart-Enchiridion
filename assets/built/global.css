@@ -87,6 +87,7 @@ video {
 }
 body {
     line-height: 1;
+    font-feature-settings: "ss01";
 }
 blockquote,
 q {
