@@ -398,7 +398,7 @@ blockquote cite a {
 a {
     color: #15171A;
     text-decoration: none;
-    font-feature-settings: "ss20" 1;
+    font-feature-settings: "ss20";
 }
 
 h1,
