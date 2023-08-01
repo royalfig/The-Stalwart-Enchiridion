@@ -124,8 +124,9 @@ html {
 
 a {
     background-color: transparent;
-    font-feature-settings: "ss20" 1;
+    font-feature-settings: "ss20";
 }
+
 a:active,
 a:hover {
     outline: 0;
