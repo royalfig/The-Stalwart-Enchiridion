@@ -121,8 +121,10 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
 a {
     background-color: transparent;
+    font-feature-settings: "ss20" 1;
 }
 a:active,
 a:hover {
@@ -398,7 +400,6 @@ blockquote cite a {
 a {
     color: #15171A;
     text-decoration: none;
-    font-feature-settings: "ss20";
 }
 
 h1,
