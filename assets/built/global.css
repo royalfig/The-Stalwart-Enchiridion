@@ -112,7 +112,6 @@ img {
 html {
     box-sizing: border-box;
     font-family: sans-serif;
-
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -124,7 +123,6 @@ html {
 
 a {
     background-color: transparent;
-    font-feature-settings: "ss20" 1;
 }
 
 a:active,
