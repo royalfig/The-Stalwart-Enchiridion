@@ -1385,6 +1385,7 @@ is the very first element in the post content */
     color: var(--ghost-accent-color);
     text-decoration: underline;
     word-break: break-word;
+    font-feature-settings: "ss20";
 }
 
 .gh-content > blockquote:not([class]),
