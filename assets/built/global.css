@@ -124,7 +124,7 @@ html {
 
 a {
     background-color: transparent;
-    font-feature-settings: "ss20";
+    font-feature-settings: "ss20" 1;
 }
 
 a:active,
