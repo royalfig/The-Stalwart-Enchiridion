@@ -975,6 +975,7 @@ production stylesheet in assets/built/screen.css
     font-size: 2.6rem;
     font-weight: 800;
     line-height: 1.2;
+    font-variant-numeric: lining-nums;
 }
 
 .post-card-content-link:hover .post-card-title {
@@ -2180,6 +2181,7 @@ html.dark-mode .author-profile-social-link:hover {
 
 html.dark-mode .article-title {
     color: #fff;
+    font-variant-numeric: lining-nums;
 }
 
 html.dark-mode .article-excerpt {
@@ -2226,7 +2228,7 @@ html.dark-mode .gh-content :not(pre) > code {
 }
 
 :where(html.dark-mode) .gh-content a {
-    color: #fff;
+    color: #8be9fd;
 }
 
 html.dark-mode .gh-content strong {
@@ -2234,7 +2236,7 @@ html.dark-mode .gh-content strong {
 }
 
 html.dark-mode .gh-content em {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.75); /* Italics Color */
 }
 
 html.dark-mode .gh-content code {

@@ -87,6 +87,7 @@ video {
 }
 body {
     line-height: 1;
+    font-feature-settings: "ss01";
 }
 blockquote,
 q {
@@ -120,9 +121,12 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
 a {
     background-color: transparent;
+    font-feature-settings: "ss20";
 }
+
 a:active,
 a:hover {
     outline: 0;
