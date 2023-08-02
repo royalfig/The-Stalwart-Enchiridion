@@ -261,6 +261,12 @@ th {
     padding: 0;
 }
 
+/* Added this to turn off underlines */
+
+div {
+  text-decoration: none; 
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
