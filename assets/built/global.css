@@ -261,12 +261,6 @@ th {
     padding: 0;
 }
 
-/* Added this to turn off underlines */
-
-div {
-  font-feature-settings: "ss20" 0; 
-}
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */

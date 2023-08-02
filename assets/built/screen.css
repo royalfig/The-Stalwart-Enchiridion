@@ -59,6 +59,10 @@ production stylesheet in assets/built/screen.css
 }
 
 
+div {
+  font-feature-settings: "ss20" 0; 
+}
+
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
 
