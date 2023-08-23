@@ -60,7 +60,6 @@ production stylesheet in assets/built/screen.css
 
 
 div {
-  font-feature-settings: "ss20" 0; 
 }
 
 /* 2. Layout - Page building blocks
@@ -1388,7 +1387,6 @@ is the very first element in the post content */
 .gh-content a {
     color: var(--ghost-accent-color);
     text-decoration: underline;
-    font-feature-settings: "ss20";
     word-break: break-word;
 }
 
