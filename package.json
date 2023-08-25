@@ -1,8 +1,8 @@
 {
-    "name": "logical",
-    "description": "Modified Casper Theme with the Logical Font",
+    "name": "Logical",
+    "description": "enchiridion.io Font Hack for the fefault Casper theme",
     "demo": "https://demo.ghost.io",
-    "version": "5.5.3",
+    "version": "5.6.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
@@ -126,7 +126,7 @@
                     "Left aligned",
                     "Hidden"
                 ],
-                "default": "Left aligned",
+                "default": "Center aligned",
                 "group": "homepage"
             },
             "feed_layout": {
@@ -146,7 +146,7 @@
                     "Dark",
                     "Auto"
                 ],
-                "default": "Dark"
+                "default": "Light"
             },
             "post_image_style": {
                 "type": "select",
@@ -156,7 +156,7 @@
                     "Small",
                     "Hidden"
                 ],
-                "default": "Small",
+                "default": "Wide",
                 "group": "post"
             },
             "email_signup_text": {

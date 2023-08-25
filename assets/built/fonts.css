@@ -46,3 +46,10 @@
 	font-style: normal;
 	src: url('https://www.enchiridion.io/assets/built/Logical-Black.woff2') format('woff2');
 }
+
+@font-face {
+ font-family: myCustomFont;
+ src: url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+ font-style: italic;
+ font-weight: bold;
+}
