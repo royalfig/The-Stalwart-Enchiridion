@@ -1,9 +1,6 @@
 {
 <<<<<<< HEAD
-    "name": "source_logical",
-=======
-    "name": "sourceLogical",
->>>>>>> Main
+    "name": "source-logical",
     "description": "Modified Source Theme",
     "demo": "https://source.ghost.io",
     "version": "1.1.0",
