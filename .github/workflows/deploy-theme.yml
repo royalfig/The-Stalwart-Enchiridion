@@ -1,0 +1,2 @@
+name: Deploy Theme
+on: workflow_dispatch
