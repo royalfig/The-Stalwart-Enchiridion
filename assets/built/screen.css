@@ -529,7 +529,7 @@ button.gh-form-input {
 .gh-navigation-logo {
     position: relative;
     font-size: calc(2.4rem * var(--factor, 1));
-    font-weight: 725;
+    font-weight: 800;
     letter-spacing: -0.015em;
     white-space: nowrap;
 }
