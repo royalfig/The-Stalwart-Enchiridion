@@ -8,8 +8,8 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - name: Deploy Ghost Theme
       - uses: actions/checkout@main
+      - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@main
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
