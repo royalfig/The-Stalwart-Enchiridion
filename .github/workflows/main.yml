@@ -6,9 +6,10 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2 # Updated to v2
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1
         with:
