@@ -2467,6 +2467,7 @@ blockquote.kg-blockquote-alt {
 
 .kg-file-card.kg-card .kg-file-card-container {
     padding: 0.6em;
+    font-feature-settings: "ss20" 0;
 }
 
 .kg-file-card.kg-card .kg-file-card-contents {
