@@ -2,7 +2,7 @@
     "name": "logical",
     "description": "Modified Source Theme",
     "demo": "https://source.ghost.io",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
